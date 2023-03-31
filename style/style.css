@@ -1,0 +1,137 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(66, 167, 116, 0.808);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.T1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.363);
+    padding: 20px 0px  10px 0px;
+}
+
+.font {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    color: rgb(34, 173, 34);
+    background-color: rgb(217, 223, 220);
+}
+
+header {
+    background-image: linear-gradient(to bottom left, #35d34f, #2bc76c, #1b5f30,#16311e);
+    background-attachment: fixed;
+    height: 100%;
+    color: white;
+    font-size: 10px;
+    border: 0px;
+    text-align: center;
+}
+
+header > h2 {
+    font-size: 15px;
+    padding: 0px 0px 8px 0px;
+}
+
+header > nav {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10x;
+    margin: 5px;
+    border: 10px;
+}
+
+header > nav > a {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+    margin: 5px;
+    border: 0px;
+}
+
+.link-hover:hover {
+    font-size: 15px;
+    background-color: rgba(127, 245, 172, 0.377);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 0px 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 70px 10px 70px;
+    box-shadow: 1px 2px 6px 1px black;
+    border-radius: 0px 0px 5px 0px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    padding: 20px;
+}
+
+picture, div {
+    display: flex;
+    justify-content: center;
+}
+
+.linksexternos {
+    color: #269739;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista > h1 {
+    background-color: #66b473;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px 6px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.lista > span {
+    display: block;
+    background-color: #bbe7c2;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+li {
+    text-decoration: underline;
+}
+
+aside {
+    text-indent: 40px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
